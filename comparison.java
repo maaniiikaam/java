@@ -2,15 +2,15 @@ public class comparison
 {
     public static void main(String[]args)
     {
-        String game1="cricket";
-        String game2="football";
-        if(game1==game2)
+        int age1=27;
+        int age2=29;
+        if(age1<age2)
         {
-            System.out.println("it is true");
+            System.out.println("age1 is less than");
         }
         else
         {
-            System.out.println("it is false");
+            System.out.println("age2 is less than");
          }
         
     }
