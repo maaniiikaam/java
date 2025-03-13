@@ -2,14 +2,17 @@ public class conditionals
 {
     public static void main(String[]args)
     {
-        int age=20;
-        if(age<18)
+        int num=0;
+        if(num>0)
         {
-            System.out.println("age is major");
+            System.out.println("the number is positive");
         }
-        else
+        else if(num<0)
         {
-            System.out.println("age is minor");
+            System.out.println("the number is negative");
+        }
+        else{
+            System.out.println("The number is zero");
         }
         
     }
